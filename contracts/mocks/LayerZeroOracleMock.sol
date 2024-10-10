@@ -2,8 +2,8 @@
 
 pragma solidity 0.7.6;
 
-import "@openzeppelin/contracts/utils/ReentrancyGuard.sol";
-import "@openzeppelin/contracts/access/Ownable.sol";
+import "openzeppelin-contracts/utils/ReentrancyGuard.sol";
+import "openzeppelin-contracts/access/Ownable.sol";
 import "../interfaces/ILayerZeroOracle.sol";
 import "../interfaces/ILayerZeroUltraLightNodeV1.sol";
 

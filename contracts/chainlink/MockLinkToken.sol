@@ -2,7 +2,7 @@
 
 pragma solidity 0.7.6;
 
-import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+import "openzeppelin-contracts/token/ERC20/ERC20.sol";
 import "./ERC677Receiver.sol";
 
 interface ERC677 is IERC20 {
